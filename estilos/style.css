@@ -6,3 +6,63 @@ verde: #49a09d
 lilás: #5f2c82
 
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #5f2c82;
+}
+
+section {
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+div#imagem {
+    background:black url(../imagens/cafezin.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario {
+    padding-bottom: 220px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+div#formulario > h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 5vw;
+}
+
+div#formulario > p {
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 2.5vw;
+}
+
+form {
+    padding: 10px;
+}
+
+form > div > input {
+    padding: 5px;
+    border: 2px solid black;
+}
