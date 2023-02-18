@@ -5,6 +5,14 @@
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
     }
 
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
     section#login {
         width: 990px;
     }

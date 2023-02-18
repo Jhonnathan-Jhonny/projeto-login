@@ -61,8 +61,8 @@ section#login > div#formulario {
 /*  */
 
 section#login > div#formulario > h1 {
-    padding-top: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 section#login > div#formulario > p {
@@ -74,6 +74,21 @@ section#login > div#formulario > p {
 
 form {
     padding: 10px;
+}
+
+form > div {
+    display: block;
+    width: 220px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #49a09d;
+    border-radius: 15px;
+}
+
+form > div > label > span{
+    display: block;
+    margin: auto;
 }
 
 form > div > input {
