@@ -80,14 +80,31 @@ form > div.campo {
     border-radius: 5px;
 }
 
-form > div > input {
+div.campo > label > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    transform: translateY(-5px);
+}
+
+div.campo > input {
+    background-color: #357471a9;
     text-align: center;
+    font-size: 1em;
     border-radius: 5px;
-    border: none;
-    margin-top: -7px;
-    float: right;
-    width: 180px;
-    height: 35px
+    border:none;
+    width: calc(100% - 44.36px);
+    height: 180%;
+    padding: 4px;
+    transform: translateY(-15px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 1.2em;
 }
 
 form > input[type=submit] {
