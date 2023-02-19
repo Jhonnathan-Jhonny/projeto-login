@@ -5,8 +5,8 @@
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
     }
 
-    div#formulario > p {
-        font-size: 1.2em;
+    section#login > div#formulario > p {
+        font-size: 1.1em;
     }
 
     div#formulario > h1 {
